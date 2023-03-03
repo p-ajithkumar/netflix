@@ -1,0 +1,36 @@
+.row{
+    margin-left: 10px;
+}
+
+.movies_row
+{
+    display: flex;
+}
+
+
+.movie{
+width: 100%;
+object-fit: contain;
+max-height: 150px;
+margin-right: 10px;
+transition: transform 500ms;
+}
+
+
+.movie:hover
+{
+transform: scale(1.10);
+}
+
+
+:-webkit-scrollbar
+{
+    display: none; /* to slide images in row using keys */
+     
+}
+
+
+.movie_poster
+{
+    max-height: 250px;
+}
